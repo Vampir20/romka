@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: fixed;
+	background: url(po.jpg) no-repeat;
+	
+}
+
+h1{
+	padding:20px 470px;
+	color: floralwhite;
+
+}
+
+.red{
+	padding-top: 50px;
+	padding-left: 530px;
+	color:  floralwhite;
+}
+.a{
+	height: 130px;
+}
+
+.kar{
+	padding-bottom: 20px;
+	padding-left: 200px;
+}
+.virus{
+	padding-top: 100px;
+	width: 180px;
+}
+
+.delete{
+	padding: 10px 20px;
+	width: 100px;
+	background: red;
+	opacity: 1;
+	visibility:visible;
+	outline: none;
+	border: none;
+
+}
+.deletee{
+	margin-left: 150px;
+	padding: 10px 20px;
+	width: 100px;
+	background: red;
+	opacity: 1;
+	visibility:visible;
+	outline: none;
+	border: none;
+}
+
+.deleteee{
+	margin-left: 150px;
+	padding: 10px 20px;
+	width: 100px;
+	background: red;
+	opacity: 1;
+	visibility:visible;
+	outline: none;
+	border: none;
+}
+
+.tor{
+	padding-top: 100px;
+	padding-left: 130px;
+	width: 180px;
+	height: 150px;
+	width: 180px;
+}
+
+.torr{
+	margin-left: 180px;
+	padding: 10px 20px;
+	width: 100px;
+	background: red;
+	opacity: 1;
+	visibility:visible;
+	outline: none;
+	border: none;
+}
+
+.monitor{
+	padding-left: 130px;
+	height: 200px;
+	width: 180px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.windows{
+	padding-top:60px ;
+	padding-left: 100px;
+	height: 130px;
+	width: 180px;
+}
+
+.button{
+	padding-left: 220px;
+}
+
+
+
+.i{	
+	display: flex;
+	text-align: center;
+}
+
+
+.io{
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+	background: red;
+	padding: 10px;
+	height: 25px;
+	width: 500px;
+	font-size:25px ;
+}
