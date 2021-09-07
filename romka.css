@@ -4,33 +4,43 @@
 }
 
 body{
-	position: fixed;
 	background: url(po.jpg) no-repeat;
+	background-attachment:fixed;
 	
 }
 
-h1{
-	padding:20px 470px;
+h1, h2{
+	text-align: center;
 	color: floralwhite;
 
 }
 
-.red{
-	padding-top: 50px;
-	padding-left: 530px;
-	color:  floralwhite;
+
+.all{
+	display: flex;
+	justify-content: space-around;
+}
+.main{
+
+	margin: 0px auto;
+	width: 1200px;
+
+}
+
+.item{
+	width: 180px;
+	text-align: center;
+
 }
 .a{
 	height: 130px;
 }
 
-.kar{
-	padding-bottom: 20px;
-	padding-left: 200px;
-}
 .virus{
-	padding-top: 100px;
+	margin-bottom: 30px;
+	height: 130px;
 	width: 180px;
+	vertical-align: top;
 }
 
 .delete{
@@ -44,7 +54,6 @@ h1{
 
 }
 .deletee{
-	margin-left: 150px;
 	padding: 10px 20px;
 	width: 100px;
 	background: red;
@@ -55,7 +64,6 @@ h1{
 }
 
 .deleteee{
-	margin-left: 150px;
 	padding: 10px 20px;
 	width: 100px;
 	background: red;
@@ -63,18 +71,9 @@ h1{
 	visibility:visible;
 	outline: none;
 	border: none;
-}
-
-.tor{
-	padding-top: 100px;
-	padding-left: 130px;
-	width: 180px;
-	height: 150px;
-	width: 180px;
 }
 
 .torr{
-	margin-left: 180px;
 	padding: 10px 20px;
 	width: 100px;
 	background: red;
@@ -84,25 +83,13 @@ h1{
 	border: none;
 }
 
-.monitor{
-	padding-left: 130px;
-	height: 200px;
-	width: 180px;
-}
+
+
+
+
 a{
 	text-decoration: none;
 	color: white;
-}
-
-.windows{
-	padding-top:60px ;
-	padding-left: 100px;
-	height: 130px;
-	width: 180px;
-}
-
-.button{
-	padding-left: 220px;
 }
 
 
@@ -122,4 +109,27 @@ a{
 	height: 25px;
 	width: 500px;
 	font-size:25px ;
+}
+
+@media (max-width: 450px) { 
+		.main{
+			width: 450px
+		}
+		.all{
+			width: 450px;
+			flex-direction:column ;
+		}
+		.item{
+			margin: 0 auto;
+			margin-bottom: 50px;
+
+		}
+
+		h1, h2{
+			font-size: 20px;
+			text-align: center;
+			padding-bottom: 30px;
+		}
+
+
 }
